@@ -1,0 +1,278 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f36f6f;
+}
+
+/* Hero Section */
+
+.hero {
+    height: 100vh;
+    background: url('img/farmer-market.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
+
+.btn-secondary {
+    background-color: #f36f6f;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #e55b5b;
+}
+
+/****2nd****/
+.markets {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .markets-left {
+    flex: 1;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .markets-left h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .markets-right {
+    flex: 2;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .markets-right p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  /******2nd******/
+
+/*********3rd start*************/
+.market-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.market-card h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.market-card p {
+    margin-bottom: 10px;
+}
+
+.market-card a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.market-card a:hover {
+    text-decoration: none;
+}
+/*************3rd close*******************/
+
+/*********4th image start****************/
+.custom-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+/*********4th image close****************/
+
+/*********5th image text part start****************/
+.custom-section {
+    display: flex;
+    align-items: center;
+    min-height: 60vh;
+}
+.text-content {
+    max-width: 100%;
+}
+.text-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.5em;
+}
+.text-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.text-content a {
+    font-size: 1rem;
+    font-weight: 600;
+}
+/*********5th image text part end****************/
+
+/* Info Link Button */
+.info-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.info-link:hover {
+    background-color: darkgreen;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
+
+/******2nd******/
+@media screen and (max-width: 768px) {
+    .markets {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .markets-left {
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .markets-right {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .markets-left h2 {
+      font-size: 1.5rem;
+    }
+  
+    .markets-right p {
+      font-size: 0.9rem;
+    }
+  }
+/****2nd****/
+
+/* Responsive */
+@media (max-width: 768px) {
+    .market-item {
+        width: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .market-item {
+        width: 100%;
+    }
+}
