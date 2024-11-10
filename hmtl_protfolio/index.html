@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" width="200" height="50">
+                <span>PORTFOLIO</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <a class="btn btn-danger" href="#">Get Free Consultant</a>
+            </div>
+        </div>
+    </nav>
+    <!--header section start-->
+    <div class="container-fluid hero-section">
+        <div class="row align-items-center" style="margin-left: 8%;" >
+            <div class="col-md-6">
+                <p class="subtitle text-uppercase text-danger">Get Every Single Solutions.</p>
+                <h1 class="title">I'm Designer<br> Haris F. Watson</h1>
+                <p class="lead mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                <div>
+                    <a href="#" class="btn btn-primary btn-custom">Learn More</a>
+                    <a href="#" class="btn btn-outline-secondary btn-custom">Hire Me</a>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+    <!--header section close-->
+    <!--Container section start-->
+    <div class="container section">
+        <div class="row">
+            <div class="col-md-6 left-content">
+                <h2>Designing With Passion While Exploring The World.</h2>
+                <p>Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua. 
+                Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.</p>
+                <p>Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-md-6 right-content">
+                <h6>Any Type Of Query </h6>
+                <h6 style="padding-right: 100px;">& Discussion. </h6>
+                <p>Late talk with me</p>
+                <a href="mailto:hire@colorlib.com" class="email-link">hire@colorlib.com</a>
+                <span class="arrow">&rarr;</span>
+            </div>
+        </div>
+    </div>
+    <!--Container section close-->
+
+    <!--Service section start-->
+    <div class="container section">
+        <h1>What Services you will</h1>
+        <h1>Get from me!</h1>
+    </div>    
+    <!--Service section close-->
+
+ <!--Card section start-->
+ <div class="container my-5">
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card card-custom">
+                <div class="icon-circle">
+                    <i class="bi bi-vector-pen card-icon"></i> 
+                </div>
+                <h5 class="card-title">UI/UX Design</h5>
+                <p class="card-text">Free resource that will help understand the design process and improve the quality of design.</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card card-custom">
+                <div class="icon-circle">
+                    <i class="bi bi-megaphone card-icon"></i>  
+                </div>
+                <h5 class="card-title">Digital Marketing</h5>
+                <p class="card-text">Free resource that will help understand the design process and improve the quality of design.</p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card card-custom">
+                <div class="icon-circle">
+                    <i class="bi bi-border-style card-icon"></i>
+                </div>
+                <h5 class="card-title">Web Design</h5>
+                <p class="card-text">Free resource that will help understand the design process and improve the quality of design.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Card section close-->
+
+ <!--as like menubar start-->
+ <div class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <h1 class="services-heading">What Services you will Get from me!</h1>
+        </div>
+
+        <div class="col-md-6 text-md-end">
+            <ul class="nav nav-pills d-inline-flex" id="servicesTab">
+                <li class="nav-item">
+                    <a class="nav-link active" id="all-tab" href="#">All</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="branding-tab" href="#">Branding</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="logo-tab" href="#">Logo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="uiux-tab" href="#">UI/UX</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="webdesign-tab" href="#">Web Design</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+ <!--as like menubar close-->
+
+ <!--image start-->
+ <div class="container mt-5">
+    <div class="row">
+      <div class="col-12 col-md-8 p-2">
+        <div class="grid-item large">
+          <img src="img/services1.png" alt="Large Image">
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-2">
+        <div class="row">
+          <div class="col-12 p-2">
+            <div class="grid-item small">
+              <img src="img/services2.png" alt="Top Right Image">
+            </div>
+          </div>
+          <div class="col-12 p-2">
+            <div class="grid-item small">
+              <img src="img/services3.png" alt="Bottom Right Image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row mt-2">
+      <div class="col-4 p-2">
+        <div class="grid-item small">
+          <img src="img/services4.png" alt="Bottom Left Image">
+        </div>
+      </div>
+      <div class="col-4 p-2">
+        <div class="grid-item small">
+          <img src="img/services5.png" alt="Bottom Center Image">
+        </div>
+      </div>
+      <div class="col-4 p-2">
+        <div class="grid-item small">
+          <img src="img/services6.png" alt="Bottom Right Image">
+        </div>
+      </div>
+    </div>
+  </div>
+ <!--image close-->
+ 
+ <!--little column start-->
+ <div class="container-fluid" style="background-image: url(img/section_bg02.jpg); background-repeat: no-repeat;">
+    <div class="container contact-section">
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <p class="contact-text">Don't worry for contact<br>i`m available</p>
+        </div>
+        <div class="col-md-4 text-md-end">
+            <button class="contact-button">Contact Me Now</button>
+        </div>
+    </div>
+</div>
+</div>
+ <!--little column close-->
+
+ <!-- slider section start-->
+ <div class="container1">
+
+    <div class="card1">
+        <div class="top">
+            <img src="img/blog1.png" alt="Profile Image">
+            <div class="info">
+                <h2>Bradley Erickson</h2>
+                <h3>UI/UX Designer</h3>
+            </div>
+        </div>
+        <p>
+            Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+        </p>
+    </div>
+
+    <div class="card1">
+        <div class="top">
+            <img src="img/blog2.png" alt="Profile Image">
+            <div class="info">
+                <h2>Bradley Erickson</h2>
+                <h3>UI/UX Designer</h3>
+            </div>
+        </div>
+        <p>
+            Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+        </p>
+    </div>
+
+    <div class="card1">
+        <div class="top">
+            <img src="img/blog3.png" alt="Profile Image">
+            <div class="info">
+                <h2>Bradley Erickson</h2>
+                <h3>UI/UX Designer</h3>
+            </div>
+        </div>
+        <p>
+            Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+        </p>
+    </div>
+</div>
+ <!-- slider section close-->
+
+ <!-- slick slider start--> 
+ 
+ <div class="image-row">
+    <img src="img/brand2.png">
+    <img src="img/brand4.png">
+    <img src="img/brand1.png">
+    <img src="img/brand3.png">
+  </div>
+
+ <!-- slick slider close--> 
+
+ <!-- contact section start-->
+ <div class="container container11">
+    <div class="text-section">
+        <h1>If Not Now, When?<br>Let’s Work Together!</h1>
+        <p>Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra.</p>
+        <img src="img/sin.png" alt="">
+       
+    </div>
+    <div class="contact-form">
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+ <!-- contact section close-->
+
+ <!-- Footer section start-->
+ <footer class="footer">
+    <div class="logo">
+        <img src="img/logo2_footer.png" alt="Logo" width="200" height="50">
+    </div>
+    <div class="email">hireme@portfolio.com</div>
+    <div class="address">221B Baker Street, Post Office Box 353<br>Park Road, USA - 215431</div>
+    <div class="social-icons">
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-globe"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+    <div class="copyright">
+        Copyright ©2024 All rights reserved | This template is made with ❤️ by Colorlib
+    </div>
+</footer>
+ <!-- footer section close-->
+ 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
