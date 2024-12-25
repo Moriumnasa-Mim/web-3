@@ -1,0 +1,124 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Slider</title>
+  </head>
+  <body>
+    <section class="">
+      <!-- Slider main container -->
+      <div class="swiper relative">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="bg-red-500 h-[200px]">Slide 1</div>
+          </div>
+          <div class="swiper-slide">
+            <div class="bg-red-500 h-[200px]">Slide 2</div>
+          </div>
+          <div class="swiper-slide">
+            <div class="bg-red-500 h-[200px]">Slide 3</div>
+          </div>
+          <div class="swiper-slide">
+            <div class="bg-red-500 h-[200px]">Slide 4</div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="bg-red-500">Slide 4</div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="bg-red-500">Slide 4</div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="bg-red-500">Slide 4</div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+
+        <div class="right flex gap-10 absolute top-[300px] left-0">
+            <p class="button-prev cursor-pointer w-[60px] h-[60px] bg-yellow-300 rounded-full shadow-md 
+            flex items-center justify-center m-auto"> > </p>
+            
+            <p class="button-next cursor-pointer w-[60px] h-[60px] bg-yellow-300 rounded-full shadow-md 
+            flex items-center justify-center m-auto"> > </p>
+        </div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+
+
+    <section>
+        <h2 class="abc">Hi I will change by Javascript</h2>
+    </section>
+
+    <script>
+        const abc  = document.querySelector(".abc");
+
+        abc.style.display = "none"
+
+    </script>
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        // direction: "vertical",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".button-prev",
+          prevEl: ".button-next",
+        },
+
+        breakpoints: {
+          // when window width is >= 320px
+          760: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is >= 480px
+          1020: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          // when window width is >= 640px
+          1280: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+
+      });
+    </script>
+  </body>
+</html>

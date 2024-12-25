@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <title>Figma To HTML</title>
+</head>
+<body>
+
+    <header
+    class="relative -z-[3]"
+    style="background: linear-gradient(123.4deg, #BD1F17 40.8%, #A61D13 76.4%, #8E1B0F 120.69%);">
+        
+    <div class="-z-[1]">
+        <nav class="flex items-center justify-between px-[30px] py-[20px] 
+            xl:px-[100px] 2xl:px-[300px] xl:py-[32px]">
+            <div class="left flex items-center gap-[60px]">
+                <img class="w-[200px] h-full object-cover" src="image/Logo.png" alt="">
+<!-- ---------------------list------------------ -->
+<div id="menuList" class="list hidden xl:block">
+    <ul class=" z-[9999] p-10 xl:p-0 flex absolute xl:static bg-black xl:bg-transparent top-0 left-0 right-0 bottom-0 flex-col xl:flex-row gap-[40px] text-white text-[15px]">
+        <li class="bg-white text-black h-[50px] xl:hidden w-[50px] rounded-full flex items-center 
+        justify-center ms-auto">
+        <i class="fa-solid fa-xmark"></i>
+    </li>
+    <li>Home</li>
+    <li>About</li>
+    <li>Portfolio</li>
+    <li>Clients</li>
+    <li>Blog</li>
+    <li>Contact</li>
+</ul>
+
+</div>
+</div>
+
+            <!-- -----for Mobile---- -->
+            <div id="menuToggle" class="right xl:hidden text-white text-[20px] z-[9999]">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <!-- -----for desktop---- -->
+        
+           
+            <div class="right hidden xl:block">
+                <button class="bg-[#FEBF00] py-[10px] px-[24px] text-[16px]">Book a table</button>
+            </div>
+
+        </nav>
+    </div>
+
+
+    <!-- --------------Hero--------------- -->
+    <section class="-z-[1]">
+        <div class="hero relative px-[30px] py-[20px] 
+        xl:px-[100px] 2xl:px-[300px] xl:py-[32px]
+        flex flex-col xl:flex-row justify-between items-center">
+            
+            <div class="left xl:absolute pb-[48px] xl:pb-0 
+            text-white flex flex-col gap-[32px] xl:w-[740px] 2xl:w-[940px]">
+                <h2 style="font-family: 'Bebas Neue', sans-serif;
+                background: linear-gradient(90deg, #bd1f1700 32.88%, #bd1f17b3 100%);
+                "
+                class=" text-[48px] leading-[56px] 
+                xl:text-[80px] xl:leading-[90px]
+                2xl:text-[120px] 2xl:leading-[130px]">
+                Taste the authentic Saudi cuisine</h2>
+                
+                <p
+                style="font-family: 'Roboto';"
+                class="text-[20px] leading-[28px]">Among the best Saudi chefs in the world, serving you something beyond flavor. </p>
+                
+                <button class="w-fit text-black bg-[#FEBF00] py-[10px] px-[24px] text-[16px]">Explore Menu</button>
+            </div>
+
+            <div class="relative right xl:ms-auto -z-[1]">
+                <img class="xl:w-[550px] xl:h-[400px] 
+                2xl:w-[700px] 2xl:h-[649px] object-cover " src="image/image 1.png" alt="">
+            
+                <img class="absolute -top-[20px] -right-[15px] -z-[2] md:z-[1] md:-top-[33px] md:-right-[30px] w-[45px] h-[45px] object-cover" src="image/Vector.png" alt="">
+               
+                <img class="absolute right-0 bottom-0 w-[72px] h-[72px] md:w-[120px] md:h-[120px] object-cover md:-right-[50px] md:-bottom-[18px]" src="image/Offer (1).png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <div class=" -z-[2] w-full h-full absolute top-0 left-0 right-0 bottom-0">
+        <img class="w-full h-full object-cover" src="image/Rectangle 4.png" alt="">
+    </div>
+
+    </header>
+
+    <main>
+        <!-- about -->
+         <section class=" relative px-[30px] py-[20px] 
+         xl:px-[100px] 2xl:px-[300px] xl:py-[32px]">
+            <div class="flex gap-[32px] flex-col xl:flex-row">
+                <div class="left flex-1 relative">
+                    <img class="object-cover py-[30px] xl:py-0 w-[330px] h-[250px] xl:w-[617px] xl:h-[480px] " src="image/Frame 1707478063.png" alt="">
+                
+                    <div class="flex absolute top-10 left-6 ml-[20px]  justify-center gap-2 rounded-[10px] items-center w-[128px] h-[73px] bg-white">
+                        <div class="relative p-[20px]">
+                            <h6 class="text-[13px] leading-[16px]">50+</h6>
+                            <img class="absolute w-[50px] h-[50px] object-cover left-1 top-1" src="image/Ellipse 9.png" alt="">
+                            <img class="absolute w-[50px] h-[50px] object-cover left-1 top-1" src="image/Ellipse 10.png" alt="">
+                            <img class="absolute w-[8px] h-[8px] object-cover left-[10px] top-2" src="image/Ellipse 11.png" alt="">
+                        </div>
+                        <p class="text-[9px]">Market 
+                            <br>Experience</p>
+                    </div>
+                </div>
+               
+                <div class="right flex-1">
+                    <div class="pb-4">
+                        <ul class="flex border-b  border-b-[#B52B1D] items-center gap-4 text-white">
+                            <li id="aboutBtn" class="bg-[#B52B1D] py-[6px] px-[16px]">About</li>
+                            <li id="experenceBtn" class="text-[#333333]">Experence</li>
+                            <li id="contactBtn" class="text-[#333333]">Contact</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- --------About----- -->
+                    <div id="aboutList" class="">
+                        <h2 
+                        style="font-family: 'Bebas Neue', sans-serif;"
+                        class="text-[40px] pb-[24px] leading-[48px] text-[#181818] ">About culinary experience and delicious food</h2>
+                        <p class="text-[16px] text-[#333333]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>    
+                    </div>
+
+                    <!-- -----------Experence------------- -->
+                    <div id="experenceList" class="">
+                        <h2 
+                        style="font-family: 'Bebas Neue', sans-serif;"
+                        class="text-[40px] pb-[24px] leading-[48px] text-[#181818] ">Experence culinary experience and delicious food</h2>
+                        <p class="text-[16px] text-[#333333]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>    
+                    </div>
+
+                    <!-- -----------contact------------- -->
+                    <div id="contactList" class="">
+                        <h2 
+                        style="font-family: 'Bebas Neue', sans-serif;"
+                        class="text-[40px] pb-[24px] leading-[48px] text-[#181818] ">Contact culinary experience and delicious food</h2>
+                        <p class="text-[16px] text-[#333333]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>    
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="div2">
+
+            </div>
+
+            <img class="absolute bottom-[50px] right-0" src="image/top-view-bell-pepper-pepper-sliced-black-bowl-white-horizontal 2.png" alt="">
+         
+        </section>
+
+
+
+        <section class="bg-[#FBf7f2]">
+            <div class="px-[30px] py-[20px] 
+            xl:px-[100px] 2xl:px-[300px] xl:py-[32px]
+            flex flex-col gap-[30px]
+            ">
+                <div class="div1 flex justify-between items-end">
+                    <div class="left">
+                        <p class="text-[#BD1f17] pb-[8px] text-[16px]
+                         flex items-center gap-1
+                        ">
+                            <span class="w-[10px] h-[10px] bg-[#BD1f17]"></span>
+                            <span>Crispy, Every Bite Taste</span>
+                        </p>
+                        <h2 
+                        style="font-family: 'Bebas Neue', sans-serif;"
+                        class="text-[40px] leading-[48px] text-[#181818] ">POPULAR FOOD ITEMS</h2>
+                    </div>
+
+                    <div class="right hidden  xl:flex items-center m-auto justify-center gap-10 py-[16px]">
+                        <p class="button-prev"><i class="fa-solid fa-angle-left"></i></p>
+                        <p class="button-next"><i class="fa-solid fa-angle-right"></i></p>
+                    </div>
+                </div>
+
+                <div class="div2">
+
+                    <div class="swiper">
+                        <div class="swiper-wrapper flex gap-3">
+                            
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="bg-white w-[330px] h-[300px] xl:w-[300px]
+                                    flex flex-col items-center justify-center m-auto
+                                    gap-[24px]
+                                    ">
+            
+                                        <img src="image/Frame 1707478074.png" alt="">
+                                        <span class="bg-[#BD1f17] w-[57px] h-[4px]"></span>
+                                        <h2 
+                                        style="font-family: 'Bebas Neue', sans-serif;"
+                                        class="text-[24px] text-[#0A1425]">vegetables burger</h2>
+                                        <p class="text-[#0A1425] text-[16px]">Barbecue Italian cuisine pizza</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="bg-white w-[330px] h-[300px] xl:w-[300px]
+                                    flex flex-col items-center justify-center m-auto
+                                    gap-[24px]
+                                    ">
+            
+                                        <img src="image/Frame 1707478074.png" alt="">
+                                        <span class="bg-[#BD1f17] w-[57px] h-[4px]"></span>
+                                        <h2 
+                                        style="font-family: 'Bebas Neue', sans-serif;"
+                                        class="text-[24px] text-[#0A1425]">vegetables burger</h2>
+                                        <p class="text-[#0A1425] text-[16px]">Barbecue Italian cuisine pizza</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="bg-white w-[330px] h-[300px] xl:w-[300px]
+                                    flex flex-col items-center justify-center m-auto
+                                    gap-[24px]
+                                    ">
+            
+                                        <img src="image/Frame 1707478074.png" alt="">
+                                        <span class="bg-[#BD1f17] w-[57px] h-[4px]"></span>
+                                        <h2 
+                                        style="font-family: 'Bebas Neue', sans-serif;"
+                                        class="text-[24px] text-[#0A1425]">vegetables burger</h2>
+                                        <p class="text-[#0A1425] text-[16px]">Barbecue Italian cuisine pizza</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="bg-white w-[330px] h-[300px] xl:w-[300px]
+                                    flex flex-col items-center justify-center m-auto
+                                    gap-[24px]
+                                    ">
+            
+                                        <img src="image/Frame 1707478074.png" alt="">
+                                        <span class="bg-[#BD1f17] w-[57px] h-[4px]"></span>
+                                        <h2 
+                                        style="font-family: 'Bebas Neue', sans-serif;"
+                                        class="text-[24px] text-[#0A1425]">vegetables burger</h2>
+                                        <p class="text-[#0A1425] text-[16px]">Barbecue Italian cuisine pizza</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="bg-white w-[330px] h-[300px] xl:w-[300px]
+                                    flex flex-col items-center justify-center m-auto
+                                    gap-[24px]
+                                    ">
+            
+                                        <img src="image/Frame 1707478074.png" alt="">
+                                        <span class="bg-[#BD1f17] w-[57px] h-[4px]"></span>
+                                        <h2 
+                                        style="font-family: 'Bebas Neue', sans-serif;"
+                                        class="text-[24px] text-[#0A1425]">vegetables burger</h2>
+                                        <p class="text-[#0A1425] text-[16px]">Barbecue Italian cuisine pizza</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="bg-white w-[330px] h-[300px] xl:w-[300px]
+                                    flex flex-col items-center justify-center m-auto
+                                    gap-[24px]
+                                    ">
+            
+                                        <img src="image/Frame 1707478074.png" alt="">
+                                        <span class="bg-[#BD1f17] w-[57px] h-[4px]"></span>
+                                        <h2 
+                                        style="font-family: 'Bebas Neue', sans-serif;"
+                                        class="text-[24px] text-[#0A1425]">vegetables burger</h2>
+                                        <p class="text-[#0A1425] text-[16px]">Barbecue Italian cuisine pizza</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                   
+
+                    <div class="right xl:hidden flex items-center m-auto justify-center gap-10 py-[16px]">
+                        <p class="button-prev"><i class="fa-solid fa-angle-left"></i></p>
+                        <p class="button-next"><i class="fa-solid fa-angle-right"></i></p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <section class="h-[500px]"></section>
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+    <!-- --------For Slider----------------- -->
+    <script>
+        const swiper = new Swiper(".swiper", {
+          // Optional parameters
+          // direction: "vertical",
+          loop: true,
+          lazy: true, // Enable lazy loading
+          
+          // If we need pagination
+          pagination: {
+            el: ".swiper-pagination",
+          },
+
+          autoplay: {
+                    delay: 3000, // Autoplay interval in milliseconds
+                    disableOnInteraction: false,
+                },
+  
+          // Navigation arrows
+          navigation: {
+            nextEl: ".button-prev",
+            prevEl: ".button-next",
+          },
+  
+          breakpoints: {
+            // when window width is >= 320px
+            760: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            // when window width is >= 480px
+            1020: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+            // when window width is >= 640px
+            1280: {
+              slidesPerView: 4,
+              spaceBetween: 30,
+            },
+          },
+  
+          // And if we need scrollbar
+          scrollbar: {
+            el: ".swiper-scrollbar",
+          },
+  
+        });
+    </script>
+
+
+
+<script>
+    // Get all menu items and content sections
+        const aboutBtn = document.querySelector('#aboutBtn');
+        const experienceBtn = document.querySelector('#experenceBtn');
+        const contactBtn = document.querySelector('#contactBtn');
+
+        const aboutSection = document.querySelector('#aboutList');
+        const experienceSection = document.querySelector('#experenceList');
+        const contactSection = document.querySelector('#contactList');
+
+
+         // Function to hide all sections
+         function hideAllSections() {
+            aboutSection.style.display = 'none';
+            experienceSection.style.display = 'none';
+            contactSection.style.display = 'none';
+        }
+
+         // Function to show the selected section
+         function showSection(section) {
+            section.style.display = 'block';
+        }
+
+
+         // Function to update active menu item
+         function updateActiveMenuItem(activeBtn) {
+            // Reset all buttons to the inactive state (black text, no red background)
+            
+            aboutBtn.classList.remove('bg-[#B52B1D]', 'text-[#ffffff]');
+            experienceBtn.classList.remove('bg-[#B52B1D]', 'text-[#ffffff]');
+            contactBtn.classList.remove('bg-[#B52B1D]', 'text-[#ffffff]');
+           
+
+
+            experienceBtn.classList.add('text-[#e27f07]');
+            aboutBtn.classList.add('text-[#e27f07]');
+            contactBtn.classList.add('text-[#e27f07]');
+
+            // Set the active button styles (red background and white text)
+            activeBtn.classList.add('bg-[#B52B1D]', 'text-[#ffffff]');
+            // activeBtn.classList.remove('text-[#333333]');
+        }
+
+
+        // Initially hide all sections and show the "About" section by default
+        hideAllSections();
+        showSection(aboutSection);
+
+
+        aboutBtn.addEventListener('click', () => {
+            hideAllSections();
+            showSection(aboutSection);
+            updateActiveMenuItem(aboutBtn);
+        });
+
+
+        experienceBtn.addEventListener('click', () => {
+            hideAllSections();
+            showSection(experienceSection);
+            updateActiveMenuItem(experienceBtn);
+        });
+
+
+        contactBtn.addEventListener('click', () => {
+            hideAllSections();
+            showSection(contactSection);
+            updateActiveMenuItem(contactBtn);
+        });
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
