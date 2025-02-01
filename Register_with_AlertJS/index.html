@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/body.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black bg-opacity-50 text-white font-poppins">
+    <div class="flex justify-center items-center min-h-screen px-4">
+        <div class="bg-black p-6 sm:p-10 rounded-lg shadow-lg w-full max-w-md">
+            <div class="text-center text-2xl sm:text-3xl font-semibold pb-6">Registration Form</div>
+            
+            <form id="signupForm" action="#">
+                <div class="relative mb-4">
+                    <input id="userID" class="peer w-full p-3 bg-transparent border-2 border-blue-500 rounded-md text-white placeholder-transparent focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-500" type="text" placeholder="User ID" />
+                    <label for="userID" class="absolute left-3 -top-2.5 bg-black px-1 text-blue-500 text-sm transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:bg-transparent peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-white peer-focus:bg-[#2980b9]">User ID</label>
+                </div>
+                
+                <div class="relative mb-4">
+                    <input id="userEmail" class="peer w-full p-3 bg-transparent border-2 border-blue-500 rounded-md text-white placeholder-transparent focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-500" type="email" placeholder="User Email">
+                    <label for="userEmail" class="absolute left-3 -top-2.5 bg-black px-1 text-blue-500 text-sm transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:bg-transparent peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-white peer-focus:bg-[#2980b9]">User Email</label>
+                </div>
+                
+                <div class="relative mb-4">
+                    <input id="userNumber" class="peer w-full p-3 bg-transparent border-2 border-blue-500 rounded-md text-white placeholder-transparent focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-500" type="number" placeholder="Mobile">
+                    <label for="userNumber" class="absolute left-3 -top-2.5 bg-black px-1 text-blue-500 text-sm transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:bg-transparent peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-white peer-focus:bg-[#2980b9]">Mobile</label>
+                </div>
+                
+                <div class="relative mb-4">
+                    <input id="userPassword" class="peer w-full p-3 bg-transparent border-2 border-blue-500 rounded-md text-white placeholder-transparent focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-500" type="password" placeholder="Password">
+                    <label for="userPassword" class="absolute left-3 -top-2.5 bg-black px-1 text-blue-500 text-sm transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:bg-transparent peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-white peer-focus:bg-[#2980b9]">Password</label>
+                </div>
+                
+                <div class="relative mb-4">
+                    <input id="userConfirmPassword" class="peer w-full p-3 bg-transparent border-2 border-blue-500 rounded-md text-white placeholder-transparent focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-500" type="password" placeholder="Confirm Password">
+                    <label for="userConfirmPassword" class="absolute left-3 -top-2.5 bg-black px-1 text-blue-500 text-sm transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:bg-transparent peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-white peer-focus:bg-[#2980b9]">Confirm Password</label>
+                </div>
+                
+                <div class="flex items-center mb-4">
+                    <input type="radio" id="terms" name="agreement" class="w-5 h-5 text-purple-500 focus:ring focus:ring-purple-300">
+                    <span class="ml-2 text-sm sm:text-lg">I agree to the <a href="#" class="text-[#2980b9]">Privacy Policy</a></span>
+                </div>
+                
+                <button type="submit" class="w-full p-3 bg-[#2980b9] text-white rounded-md text-lg">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
